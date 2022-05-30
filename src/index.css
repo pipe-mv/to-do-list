@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: #61dafb;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+/* #008bb5 
+#61dafb*/
+header {
+  /* background-color: #61dafb; */
+  background-color: none;
+  /* margin: auto -16px; */
+  /* padding: 16px 32px; */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  width: 10%;
+}
+
+header h1 {
+  font-family: "McLaren", cursive;
+  color: #fff;
+  text-align: center ;
+  font-weight: 200;
+  font-size: 400%;
+}
+
+.subtitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /* color: #fff;
+  text-align: center ;
+  font-family: "McLaren", cursive; */
+}
+
+.icon {
+  transform: rotate(20deg)
+}
+
+img {
+  padding-top: 3rem;
+  /* transform: rotate(20deg) */
+}
+
+.list {
+  position: relative;
+  font-family: 'Nosifer', cursive;
+  font-size: 2rem;
+  text-align:center ;
+  list-style-type:none ;
+  /* width: 480px; */
+  margin: 30px auto 20px auto;
+  background: none;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.create-list {
+  position: relative;
+  text-align: center;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: none;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+ form .add-button {
+  right: -10px;
+  /* bottom: -18px; */
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+form .delete-all-button {
+  /* bottom: -18px; */
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.edit-button {
+  position: relative;
+  right: -20px;
+  /* bottom: -18px; */
+  background: none;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-button {
+  position:relative ;
+  right: -30px;
+  /* bottom: -18px; */
+  background: none;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+footer {
+  /* position: absolute ; */
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  padding: 2rem;
+}
+
+
