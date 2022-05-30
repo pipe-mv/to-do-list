@@ -13,4 +13,4 @@ This repository contains the code for a wall where you can write, edit and delet
 
 Note that the list already contains three items in the list that you can edit and delete but everytime you refresh these three items will apear again!. That is to say, from a board that looks like this:
 
-![board](./src/images/board.png)
+![board](./public/board.png)
