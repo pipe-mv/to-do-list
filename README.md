@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# To-do-list
 
 This repository contains the code for a wall where you can write, edit and delete a 'to do list'. You can see it running [here](https://pipe-mv.github.io/to-do-list/).
 
